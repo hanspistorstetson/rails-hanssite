@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f463ff89-9922-4608-9290-ab16fa24a5dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/responsive/desktop.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/responsive/mobile.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/partials/layout/navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/partials/layout/navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/navigation/_collapsible_elements.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/navigation/_collapsible_elements.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -27,9 +24,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/partials/layout/navigation.scss">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/helpers/navigation_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/navigation/_collapsible_elements.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -57,11 +72,16 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/base/variables.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/navigation/_header.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/navigation/_collapsible_elements.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/responsive/desktop.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/responsive/mobile.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/partials/layout/navigation.scss" />
+        <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/navigation/collapsible_elements/_signed_in_links.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/navigation/collapsible_elements/_signed_out_links.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/navigation/_collapsible_elements.html.erb" />
+        <option value="$PROJECT_DIR$/app/helpers/navigation_helper.rb" />
       </list>
     </option>
   </component>
@@ -240,18 +260,18 @@
       <option name="presentableId" value="Default" />
       <updated>1547235303136</updated>
       <workItem from="1547235338122" duration="1145000" />
-      <workItem from="1547236504284" duration="3017000" />
+      <workItem from="1547236504284" duration="3370000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4162000" />
+    <option name="totallyTimeSpent" value="4515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985294" visible="true" weight="0.20568928" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985294" visible="true" weight="0.20568928" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50147057" side_tool="true" weight="0.20131291" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -264,7 +284,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4989059" weight="0.32932165" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49781182" visible="true" weight="0.2560175" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49781182" visible="true" weight="0.2560175" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5021882" side_tool="true" weight="0.2560175" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32932165" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -384,13 +404,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/layouts/navigation/_header.html.erb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/navigation/_collapsible_elements.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/responsive/mobile.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -414,6 +427,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/partials/layout/navigation.scss">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/navigation/collapsible_elements/_signed_in_links.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/navigation/collapsible_elements/_signed_out_links.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/navigation/_collapsible_elements.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/navigation_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
